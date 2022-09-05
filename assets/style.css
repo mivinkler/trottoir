@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    letter-spacing: 1px;
+    color: #0a003f;
+}
+p {
+    font-size: 20px;
+    line-height: 32px;
+}
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+ul > li {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+/* ============= header =============*/
+
+header {
+    height: 350px;
+    background: linear-gradient(125deg,rgba(24,22,22,0.3) 23%,rgba(10,0,63, 0.7) 59%), url(./images/bruschatka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header_box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 16.5%;
+}
+.header_title {
+    border-right: 2px solid #f68021;
+    color: #fff;
+    padding-right: 20px;
+}
+.header_box p {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* ============= willcommen =============*/
+
+.willcommen_head {
+    display: flex;
+    height: 100px;
+}
+.willcommen_head > div {
+    display: flex;
+    align-items: center;
+}
+.willcommen_contact {
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.willcommen_contact i{
+    color:#f68021;
+    width: 80px;
+    text-align: center;
+}
+.willcommen_tel {
+    font-size: 24px;
+    font-weight: 600;
+}
+.willcommen_title {
+    background-color: #f68021;
+}
+.willcommen_title p {
+    color: #fff;
+    font-weight: 600;
+}
+.willcommen_foot {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.willcommen_img {
+    height: 230px;
+    background: url(./images/about.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.willcommen_contact,
+.willcommen_img{
+    width: 30%;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.willcommen_text,
+.willcommen_title {
+    width: 70%;
+    padding: 0 15% 0 50px;
+}
+.contact_mobile{
+    display: none;
+}
+/* ============= perfomance =============*/
+
+.perfomance {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+    width: 80%;
+    margin: 100px auto 200px;
+}
+.perfomance > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 360px;
+    padding: 30px 10px 10px;
+}
+.perfomance h3{
+    margin: 20px 0 16px;
+}
+.perfomance i{
+    color:#ff6900;
+}
+.außenanlagen {
+    background-color: #ffe97d;
+}
+.innenausbau {
+    background-color: #c0ebf1;
+}
+.sanierung {
+    background-color: #d1d1e1;
+}
+.transport {
+    background-color: #94f0ce;
+}
+
+/* ============= services =============*/
+
+.services {
+    width: 64%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    row-gap: 100px;
+}
+.services *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service_text {
+    width: 50%;
+    height: 400px;
+}
+.pflastersteine_img {
+    background: url(./images/pflastersteine.png);
+}
+.zaun_img {
+    background: url(./images/zaun.png);
+}
+.veranda_img {
+    background: url(./images/veranda.png);
+}
+.services p:nth-child(odd) {
+    text-align: right;
+}
+.service_img {
+    width: 40%;
+    min-width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* ============= advantages =============*/
+
+.advantages {
+    min-height: 250px;
+    margin: 200px 0;
+    padding: 80px 20px;
+    gap: 3em;
+    background: linear-gradient(rgba(10,0,63, 0.65),rgba(10,0,63, 0.65)), url(./images/bruschatka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.advantages div{
+    width: 238px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.advantages i {
+    color: #f68021;
+    padding-right: 8px;
+}
+.advantages h3,
+.advantages p{
+    color: #fff;
+}
+
+/* ============= projects =============*/
+
+.projects_fotos {
+    max-width: 64%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+.projects_fotos div {
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.projects h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.project_1 {
+    background: url(./images/projekt_1.jpg);
+}
+.project_2 {
+    background: url(./images/projekt_2.jpg);
+}
+.project_3 {
+    background: url(./images/projekt_3.jpg);
+}
+.project_4 {
+    background: url(./images/projekt_4.jpg);
+}
+.project_5 {
+    background: url(./images/projekt_5.jpg);
+}
+.project_6 {
+    background: url(./images/projekt_6.jpg);
+}
+
+/* ============= contact =============*/
+
+.contact{
+    width: 700px;
+    max-width: 90%;
+    margin: 300px auto;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+
+}
+.formbox > input,
+.formbox > textarea{
+    height: 40px;
+    margin-bottom: 36px;
+    border: 2px solid #808080c2;
+}
+.formbox > label{
+    height: 30px;
+    font-size: 20px;
+}
+.formbox > h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+#message {
+    height: 200px;
+}
+.btn {
+    height: 40px;
+    width: 30%;
+    margin: 40px 0px 40px auto;
+    border: none;
+    font-size: 18px;
+    background-color: #f68021;
+    color: white;
+}
+.btn:hover {
+    background-color: #ff6900;
+    font-weight: bold;
+}
+
+/* ============= footer =============*/
+footer {
+    background-color: #0a003f;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+footer div {
+    margin: 100px 20px 0;
+}
+footer h3 {
+    color: #f68121;
+    border-left: 3px solid #f68021;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+footer p {
+    color: #e5e5e5;
+    padding-left: 23px;
+    font-size: 18px;
+}
+
+/* ============= media queries =============*/
+
+ /* from 993px to 1200px */
+@media (max-width: 1200px) {
+    .services{
+        width: 80%;
+    }
+}
+/* from 769px to 992px */
+@media (max-width: 992px) {	
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 18px;
+    }
+    ul > li {
+        font-size: 18px;
+    }
+    .willcommen_contact {
+        justify-content: center;
+        margin-right: 0;
+    }
+    .willcommen_title,
+    .willcommen_text {
+        width: 100%;
+        padding: 5%;
+        margin-right: 0;
+    }
+    .willcommen_img {
+        margin-right: 0;
+    }
+    .willcommen_foot{
+        margin-top: 0;
+    }
+    .perfomance {
+        width: 90%;
+    }
+    .services{
+        width: 90%;
+        justify-content: center;
+    }
+    .services p:nth-child(odd) {
+        text-align: center;
+    }
+    .service_text {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .service_img {
+        width: 70%;
+        height: 230px;
+    }
+    .pflastersteine_img {
+        order: 1;
+    }
+    .pflastersteine_text {
+        order: 2;
+    }
+    .zaun_img {
+        order: 3;
+    }
+    .zaun_text {
+        order: 4;    
+    }
+    .veranda_img {
+        order: 5;
+    }
+    .veranda_text {
+        order: 6;  
+    }
+    .advantages i {
+        font-size: 2em;
+    }
+}
+
+/* from 0px to 768px */
+@media (max-width: 768px) {
+    .header_box {
+        margin-right: 5%;
+    }
+    .willcommen_head > .willcommen_contact {
+        display: none;
+    }
+    .willcommen_title p {
+        font-weight: 400;
+    }
+    .willcommen_text {
+        padding: 5%;
+    }
+    .contact_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .contact_mobile i {
+        color:#f68021;
+        padding-right: 20px;
+    }
+    .willcommen_img {
+        display: none;
+    }
+    .advantages div {
+        width: 214px;
+        height: 80px;
+    }
+}
